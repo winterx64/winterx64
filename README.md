@@ -10,7 +10,7 @@ Maker. Engineer. System thinker.
 $ cat /etc/profile
 --------------------------------------------------
 Name        : Akhil B Xavier
-Alias       : winterx64
+Alias       : winter
 Role        : Full-Stack Engineer (Backend-first)
 Focus       : Systems > Demos
 Style       : Dark, Minimal, Intentional
