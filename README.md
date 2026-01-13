@@ -3,7 +3,7 @@ $ whoami
 winterx64
 
 $ uname -a
-Builder. Engineer. System thinker.
+Maker. Engineer. System thinker.
 ```
 
 ```bash
@@ -70,7 +70,6 @@ Backend:
   - SQLModel + Alembic
 
 Frontend:
-  - Astro
   - React
   - Tailwind CSS
 
