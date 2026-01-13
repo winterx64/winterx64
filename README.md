@@ -1,13 +1,15 @@
 ```bash
 $ whoami
-winter_x64
+winterx64
 
 $ uname -a
 Builder. Engineer. System thinker.
+```
 
+```bash
 $ cat /etc/profile
 --------------------------------------------------
-Name        : winter_x64
+Name        : Akhil B Xavier
 Alias       : winter
 Role        : Full-Stack Engineer (Backend-first)
 Focus       : Systems > Demos
@@ -45,6 +47,21 @@ $ cat current_focus.txt
 ```
 
 ```bash
+$ ls /dev/boards
+arduino/
+esp32/
+raspberrypi/
+```
+
+```bash
+$ cat hardware_focus.txt
+- Raspberry Pi (Linux services, self-hosting)
+- ESP32 (IoT, networking, firmware)
+- Arduino (prototyping, sensors, control)
+- Hardware ↔ Software integration
+```
+
+```bash
 $ cat tech_stack.md
 Backend:
   - FastAPI
@@ -63,6 +80,10 @@ Infra:
   - Nomad
   - GitHub Actions
   - Linux
+
+Embedded:
+  - GPIO, I2C, SPI, UART
+  - Device-to-API communication
 
 Design:
   - Dark UI
@@ -92,9 +113,9 @@ $ echo $PHILOSOPHY
 ```
 
 ```bash
-$ ping metaloom.in
-PING metaloom.in (live)
-64 bytes from metaloom.in: system online
+$ curl https://winterx64.github.io
+HTTP/2 200 OK
+Portfolio: online
 ```
 
 ```bash
