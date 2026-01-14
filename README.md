@@ -1,7 +1,9 @@
 ```bash
 $ whoami
 winterx64
+```
 
+```bash
 $ uname -a
 Maker. Engineer. System thinker.
 ```
