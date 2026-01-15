@@ -77,7 +77,6 @@ Frontend:
 
 Infra:
   - Docker
-  - Docker Compose
   - Nomad
   - GitHub Actions
   - Linux
