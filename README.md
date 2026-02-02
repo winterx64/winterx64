@@ -74,10 +74,11 @@ Backend:
 Frontend:
   - React
   - Tailwind CSS
+  - HTML CSS
 
 Infra:
   - Docker
-  - Nomad
+  - Nomad (learning)
   - GitHub Actions
   - Linux
 
