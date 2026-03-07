@@ -13,7 +13,7 @@ $ cat /etc/profile
 --------------------------------------------------
 Name        : Akhil B Xavier
 Alias       : winter
-Role        : Full-Stack Engineer (Backend-first)
+Role        : Product Engineer 
 Focus       : Systems > Demos
 Style       : Dark, Minimal, Intentional
 --------------------------------------------------
