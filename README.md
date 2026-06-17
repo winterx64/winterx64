@@ -1,26 +1,19 @@
+
 ```bash
 $ whoami
 
 winterx64
-```
-
-```bash
-$ uname -a
 Product Engineer • Protocol Designer • Systems Builder
 ```
 
 ```bash
 $ cat /etc/profile
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Name        : Akhil B Xavier
-Alias       : winterx64
-Role        : Product Engineer
-Focus       : Backend • Infrastructure • Embedded Systems
-Mission     : Build useful systems, not demos
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name    : Akhil B Xavier
+Alias   : winterx64
+Role    : Product Engineer
+Focus   : Backend • Infrastructure • Embedded Systems
+Mission : Build useful systems, not demos
 ```
 
 ```bash
@@ -30,57 +23,19 @@ $ echo $PHILOSOPHY
 ```
 
 ```bash
-$ ls ~/active_projects
-
-DropaNote/
-USMP/
-Metaloom/
-PerceptionAutonomyLabs/
-InternalTools/
-EmbeddedExperiments/
-```
-
-```bash
-$ tree USMP -L 2
-
-USMP
-├── core/
-├── transports/
-├── security/
-├── embedded/
-├── python/
-├── arduino/
-└── documentation/
-```
-
-```bash
-$ cat protocols.conf
+$ cat featured_projects.md
 
 USMP
 └─ Unified Secure Multi-transport Protocol
-
-Focus:
-- Secure communication
-- Transport abstraction
-- Embedded interoperability
-- Device-to-cloud messaging
-- Protocol engineering
-```
-
-```bash
-$ tree DropaNote -L 2
+   Secure communication across multiple transports.
 
 DropaNote
-├── api/
-│   ├── auth/
-│   ├── apps/
-│   ├── feedbacks/
-│   └── analytics/
-├── services/
-├── db/
-├── widgets/
-├── middleware/
-└── infra/
+└─ Feedback infrastructure platform
+   Collect, manage, and analyze user feedback.
+
+Metaloom
+└─ Product engineering & creative tech studio
+   Building products, systems, and developer tools.
 ```
 
 ```bash
@@ -105,90 +60,25 @@ Current Research:
 - Embedded ↔ Cloud communication
 - Infrastructure automation
 - Self-hosted platforms
-- Typed backend systems
 ```
 
-```bash
-$ ls /dev/boards
+```yaml
+$ cat focus.yaml
 
-arduino/
-esp32/
-raspberrypi/
-```
-
-```bash
-$ cat hardware_focus.txt
-
-ESP32
-└─ IoT systems, telemetry, firmware
-
-Raspberry Pi
-└─ Linux services, networking, self-hosting
-
-Arduino
-└─ Rapid prototyping and automation
-
-```
-
-```bash
-$ cat toolchain.yaml
-
-backend:
-  - FastAPI
-  - Flask
-  - PostgreSQL
-  - Supabase
-  - SQLModel
-  - Alembic
-
-frontend:
-  - Astro
-  - Tailwind CSS
-
-infrastructure:
-  - Linux
-  - Docker
-  - GitHub Actions
-  - Nginx
-  - VPS Hosting
-  - Self-hosted Services
-  - Nomad (learning)
+systems:
+  - Backend Engineering
+  - Infrastructure
+  - Protocol Design
 
 embedded:
-  - GPIO
-  - UART
-  - SPI
-  - I2C
+  - ESP32
+  - Raspberry Pi
   - CAN Bus
-  - Device-to-API Systems
 
-design:
-  - Minimal Interfaces
-  - Dark Themes
-  - Function-first Systems
-```
-
-```bash
-$ cat mission.txt
-
-Building Metaloom into a product engineering studio
-while creating systems, protocols, and tools
-that solve real-world problems.
-```
-
-```bash
-$ systemctl status workflow.service
-
-● workflow.service - Continuous Building
-   Loaded: true
-   Active: active (running)
-
-Tasks:
-  • Building USMP
-  • Scaling DropaNote
-  • Growing Metaloom
-  • Exploring embedded networking
-  • Learning infrastructure beyond deployment
+building:
+  - USMP
+  - DropaNote
+  - Metaloom
 ```
 
 ```bash
@@ -197,7 +87,7 @@ $ ps aux | grep shipping
 USMP          RUNNING
 DropaNote     RUNNING
 Metaloom      RUNNING
-Experiments   RUNNING
+Learning      RUNNING
 Sleep         CRASHED
 ```
 
@@ -207,7 +97,7 @@ $ journalctl -u winterx64
 [INFO] Building production-grade systems
 [INFO] Designing secure communication protocols
 [INFO] Exploring embedded networking
-[INFO] Building infrastructure knowledge
+[INFO] Growing Metaloom
 [INFO] Shipping more than planning
 ```
 
@@ -219,7 +109,17 @@ portfolio_status: online
 ```
 
 ```bash
+$ cat links.txt
+
+Portfolio  -> winterx64.github.io
+USMP       -> github.com/metaloomlabs/usmp-docs
+DropaNote  -> note.metaloom.in
+Metaloom   -> metaloom.in
+```
+
+```bash
 $ logout
 
 Connection closed.
 ```
+
