@@ -1,11 +1,12 @@
 ```bash
 $ whoami
+
 winterx64
 ```
 
 ```bash
 $ uname -a
-Product Engineer | Systems Builder | Embedded + Backend
+Product Engineer • Protocol Designer • Systems Builder
 ```
 
 ```bash
@@ -14,23 +15,56 @@ $ cat /etc/profile
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Name        : Akhil B Xavier
-Alias       : winter
-Focus       : Building systems that survive reality
+Alias       : winterx64
 Role        : Product Engineer
-Stack       : Backend • Infra • Embedded Systems
-Location    : Linux terminal probably
+Focus       : Backend • Infrastructure • Embedded Systems
+Mission     : Build useful systems, not demos
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+```bash
+$ echo $PHILOSOPHY
+
+"Build systems that survive contact with reality."
 ```
 
 ```bash
 $ ls ~/active_projects
 
 DropaNote/
+USMP/
 Metaloom/
 PerceptionAutonomyLabs/
 InternalTools/
 EmbeddedExperiments/
+```
+
+```bash
+$ tree USMP -L 2
+
+USMP
+├── core/
+├── transports/
+├── security/
+├── embedded/
+├── python/
+├── arduino/
+└── documentation/
+```
+
+```bash
+$ cat protocols.conf
+
+USMP
+└─ Unified Secure Multi-transport Protocol
+
+Focus:
+- Secure communication
+- Transport abstraction
+- Embedded interoperability
+- Device-to-cloud messaging
+- Protocol engineering
 ```
 
 ```bash
@@ -52,26 +86,26 @@ DropaNote
 ```bash
 $ cat engineering_principles.conf
 
-- Build for production, not screenshots
-- Readable systems > clever abstractions
-- Auth is mandatory
-- Deployability is a feature
-- APIs should feel predictable
-- Build tools you would actually use
-- Ship fast, refactor faster
+- Production first
+- Security before convenience
+- Reliability is a feature
+- Explicit over magical
+- Deployability matters
+- Build tools worth maintaining
+- Ship fast, improve continuously
 ```
 
 ```bash
 $ cat architecture.md
 
-Current Interests:
-- Modular monolith architecture
-- API-first system design
+Current Research:
+- Secure transport protocols
+- API-first architectures
+- Event-driven systems
+- Embedded ↔ Cloud communication
+- Infrastructure automation
+- Self-hosted platforms
 - Typed backend systems
-- RBAC + secure auth flows
-- Event-driven workflows
-- Embedded ↔ cloud communication
-- Self-hosted infrastructure
 ```
 
 ```bash
@@ -80,45 +114,44 @@ $ ls /dev/boards
 arduino/
 esp32/
 raspberrypi/
-canbus/
 ```
 
 ```bash
 $ cat hardware_focus.txt
 
-- Raspberry Pi
-  └─ Linux services, networking, self-hosting
+ESP32
+└─ IoT systems, telemetry, firmware
 
-- ESP32
-  └─ Firmware, IoT systems, device communication
+Raspberry Pi
+└─ Linux services, networking, self-hosting
 
-- Arduino
-  └─ Rapid prototyping, sensors, automation
+Arduino
+└─ Rapid prototyping and automation
 
-- CAN Bus
-  └─ Reverse engineering, telemetry, diagnostics
 ```
 
 ```bash
-$ cat tech_stack.yaml
+$ cat toolchain.yaml
 
 backend:
   - FastAPI
   - Flask
-  - Supabase
   - PostgreSQL
+  - Supabase
   - SQLModel
   - Alembic
 
 frontend:
-  - React
   - Astro
   - Tailwind CSS
 
 infrastructure:
+  - Linux
   - Docker
   - GitHub Actions
-  - Linux
+  - Nginx
+  - VPS Hosting
+  - Self-hosted Services
   - Nomad (learning)
 
 embedded:
@@ -126,12 +159,21 @@ embedded:
   - UART
   - SPI
   - I2C
-  - Device-to-API systems
+  - CAN Bus
+  - Device-to-API Systems
 
 design:
-  - Minimal UI
-  - Dark interfaces
-  - Function-first systems
+  - Minimal Interfaces
+  - Dark Themes
+  - Function-first Systems
+```
+
+```bash
+$ cat mission.txt
+
+Building Metaloom into a product engineering studio
+while creating systems, protocols, and tools
+that solve real-world problems.
 ```
 
 ```bash
@@ -142,43 +184,31 @@ $ systemctl status workflow.service
    Active: active (running)
 
 Tasks:
-  • Designing backend systems
-  • Building internal tools
-  • Refactoring architecture
-  • Testing embedded integrations
-  • Shipping production features
+  • Building USMP
+  • Scaling DropaNote
+  • Growing Metaloom
+  • Exploring embedded networking
+  • Learning infrastructure beyond deployment
 ```
 
 ```bash
-$ watch -n 1 current_builds
+$ ps aux | grep shipping
 
-- DropaNote
-  → Feedback infrastructure platform
-
-- Metaloom
-  → Product engineering & creative tech studio
-
-- CAN Analyzer Tooling
-  → Session recording + telemetry analysis
-
-- Raspberry Pi Systems
-  → Self-hosted services & automation
+USMP          RUNNING
+DropaNote     RUNNING
+Metaloom      RUNNING
+Experiments   RUNNING
+Sleep         CRASHED
 ```
 
 ```bash
-$ journalctl -u engineering
+$ journalctl -u winterx64
 
-[INFO] Building production-grade backend systems
-[INFO] Designing scalable API architectures
-[INFO] Exploring embedded + cloud integrations
-[INFO] Learning infrastructure beyond deployment
-[INFO] Shipping faster than yesterday
-```
-
-```bash
-$ echo $PHILOSOPHY
-
-"Build systems that survive contact with reality."
+[INFO] Building production-grade systems
+[INFO] Designing secure communication protocols
+[INFO] Exploring embedded networking
+[INFO] Building infrastructure knowledge
+[INFO] Shipping more than planning
 ```
 
 ```bash
