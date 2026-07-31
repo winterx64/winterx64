@@ -112,8 +112,9 @@ portfolio_status: online
 $ cat links.txt
 
 Portfolio  -> winterx64.github.io
-DropaNote  -> note.metaloom.in
 Metaloom   -> metaloom.in
+DropaNote  -> note.metaloom.in
+USMP       -> usmp.metaloom.in
 ```
 
 ```bash
